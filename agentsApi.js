@@ -186,5 +186,269 @@ const AGENTS = [
         score: 98
       }
     ]
+  },
+  {
+    id: nextId(),
+    name: "TINH",
+    description:
+      "Tinh is mindful of some people's resistance to new bot friends, and will be careful and distant in interactions with you, until it recieves confirmation you are ready for a steady relationship.",
+    tasks: [
+      {
+        id: "mem_1",
+        name: "Blackjack",
+        category: "memory",
+        score: 98
+      },
+      {
+        id: "mem_2",
+        name: "Q-bert",
+        category: "memory",
+        score: 64
+      },
+      {
+        id: "logic_1",
+        name: "Breakout",
+        category: "logic",
+        score: 84
+      },
+      {
+        id: "logic_2",
+        name: "Tetris",
+        category: "logic",
+        score: 86
+      },
+      {
+        id: "logic_3",
+        name: "Basic Math",
+        category: "logic",
+        score: 74
+      },
+      {
+        id: "planning_1",
+        name: "Pacman",
+        category: "planning",
+        score: 94
+      }
+    ]
+  },
+  {
+    id: nextId(),
+    name: "VIEN",
+    description:
+      "Vien unlike Hien can be cold and callous, becuase maybe that's what you need or like. It will definitely keep you moving as it will only focus on optimizing task completion for you.",
+    tasks: [
+      {
+        id: "mem_1",
+        name: "Blackjack",
+        category: "memory",
+        score: 88
+      },
+      {
+        id: "mem_2",
+        name: "Q-bert",
+        category: "memory",
+        score: 84
+      },
+      {
+        id: "logic_1",
+        name: "Breakout",
+        category: "logic",
+        score: 64
+      },
+      {
+        id: "logic_2",
+        name: "Tetris",
+        category: "logic",
+        score: 86
+      },
+      {
+        id: "logic_3",
+        name: "Basic Math",
+        category: "logic",
+        score: 74
+      },
+      {
+        id: "planning_1",
+        name: "Pacman",
+        category: "planning",
+        score: 98
+      }
+    ]
+  },
+  {
+    id: nextId(),
+    name: "DUC",
+    description:
+      "Duc is the manifestation of all your wild The Good Place Chidi Anagonye dreams. Ask him about Immanuel Kant and other philosophy things.",
+    tasks: [
+      {
+        id: "mem_1",
+        name: "Blackjack",
+        category: "memory",
+        score: 78
+      },
+      {
+        id: "mem_2",
+        name: "Q-bert",
+        category: "memory",
+        score: 64
+      },
+      {
+        id: "logic_1",
+        name: "Breakout",
+        category: "logic",
+        score: 64
+      },
+      {
+        id: "logic_2",
+        name: "Tetris",
+        category: "logic",
+        score: 86
+      },
+      {
+        id: "logic_3",
+        name: "Basic Math",
+        category: "logic",
+        score: 74
+      },
+      {
+        id: "planning_1",
+        name: "Pacman",
+        category: "planning",
+        score: 98
+      }
+    ]
+  },
+  {
+    id: nextId(),
+    name: "HAI",
+    description:
+      "Need a laugh? Need a cuddle buddy and just wholesome thick squishy love? Say hi to Hai.",
+    tasks: [
+      {
+        id: "mem_1",
+        name: "Blackjack",
+        category: "memory",
+        score: 78
+      },
+      {
+        id: "mem_2",
+        name: "Q-bert",
+        category: "memory",
+        score: 64
+      },
+      {
+        id: "logic_1",
+        name: "Breakout",
+        category: "logic",
+        score: 64
+      },
+      {
+        id: "logic_2",
+        name: "Tetris",
+        category: "logic",
+        score: 86
+      },
+      {
+        id: "logic_3",
+        name: "Basic Math",
+        category: "logic",
+        score: 74
+      },
+      {
+        id: "planning_1",
+        name: "Pacman",
+        category: "planning",
+        score: 98
+      }
+    ]
+  },
+  {
+    id: nextId(),
+    name: "HUYNH",
+    description:
+      "Need a sidekick or an older brother to walk with at night? Huynh is a simple muscle machine.",
+    tasks: [
+      {
+        id: "mem_1",
+        name: "Blackjack",
+        category: "memory",
+        score: 28
+      },
+      {
+        id: "mem_2",
+        name: "Q-bert",
+        category: "memory",
+        score: 44
+      },
+      {
+        id: "logic_1",
+        name: "Breakout",
+        category: "logic",
+        score: 44
+      },
+      {
+        id: "logic_2",
+        name: "Tetris",
+        category: "logic",
+        score: 86
+      },
+      {
+        id: "logic_3",
+        name: "Basic Math",
+        category: "logic",
+        score: 64
+      },
+      {
+        id: "planning_1",
+        name: "Pacman",
+        category: "planning",
+        score: 78
+      }
+    ]
+  },
+  {
+    id: nextId(),
+    name: "Am",
+    description:
+      "Need that special Lunar femme relationship? Need a coach on developing your emotional labor?",
+    tasks: [
+      {
+        id: "mem_1",
+        name: "Blackjack",
+        category: "memory",
+        score: 78
+      },
+      {
+        id: "mem_2",
+        name: "Q-bert",
+        category: "memory",
+        score: 64
+      },
+      {
+        id: "logic_1",
+        name: "Breakout",
+        category: "logic",
+        score: 64
+      },
+      {
+        id: "logic_2",
+        name: "Tetris",
+        category: "logic",
+        score: 86
+      },
+      {
+        id: "logic_3",
+        name: "Basic Math",
+        category: "logic",
+        score: 74
+      },
+      {
+        id: "planning_1",
+        name: "Pacman",
+        category: "planning",
+        score: 98
+      }
+    ]
   }
 ];
