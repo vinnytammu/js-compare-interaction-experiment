@@ -1,0 +1,86 @@
+/*https://fonts.google.com/specimen/Rubik?category=Sans+Serif,Display&sidebar.open=true&selection.family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900*/
+
+/*https://coolors.co/e0fbfc-c2dfe3-9db4c0-5c6b73-253237*/
+:root {
+  --rowNum: auto; 
+  --colNum: 3;
+  --gridHeight: 120px;
+  --wrapperH: 40px; 
+  --gunMetal:#253237;
+  --cadet:#5c6b73;
+  --pewterBlue: #9db4c0;
+  --powderBlue: #c2dfe3;
+  --lightCyan: #e0fbfc;
+}
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  display: grid; 
+  grid-template-rows: repeat(var(--rowNum), var(--gridHeight)); 
+  grid-template-columns: repeat(var(--colNum), auto); 
+  column-gap: 10px; 
+  row-gap: 10px; 
+  padding: 4%;
+}
+
+h1 {
+  font-size: 2.6em;
+  margin: 2% 2%; 
+  font-weight: 800; 
+  color: var(--cadet);
+}
+
+p {
+  font-weight: 400; 
+  color: var(--cadet);
+}
+
+.ui-widget-content {
+  color: var(--gunMetal);
+  font-weight: 700; 
+  border-radius: 4px;
+  background: rgb(231, 231, 231);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+  padding: 5%;
+}
+
+.ui-widget-content:hover {
+  background: #F0F2F5;
+  box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.16);
+}
+
+.displayContainer{
+  color: var(--gunMetal);
+  font-weight: 700; 
+  border-radius: 4px;
+  background: var(--cadet);
+  box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.16);
+  padding: 2% 2%;
+  display: grid; 
+  grid-template-rows: repeat(var(--rowNum), var(--gridHeight)); 
+  grid-template-columns: repeat(2, auto); 
+  justify-content: center;
+}
+
+.displayContainer > div {
+  margin: 2%; 
+}
+
+.clear {
+  margin: 2% 2%; 
+  text-align: center; 
+}
+
+.boldData p:nth-child(2) {
+  font-weight: 800; 
+}
+
+.boldData p:nth-child(3) {
+  font-weight: 800; 
+}
+
+.boldData p:nth-child(4) {
+  font-weight: 800; 
+}

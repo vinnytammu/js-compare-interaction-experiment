@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Example Title</title>
+    <meta name="author" content="Your Name" />
+    <meta name="description" content="Example description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      #feedback {
+        font-size: 1.4em;
+      }
+      #selectable .ui-selecting {
+        background: var(--powderBlue);
+      }
+      #selectable .ui-selected {
+        background: var(--pewterBlue);
+        color: white;
+      }
+    </style>
+
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+      integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--ensures code will still work as some browsers dont' support modern js(ES6&beyond)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+    <!--apply modules-->
+    <script type="module" src="./index.js"></script>
+    <!--<script type="module" src="./select.js"></script>-->
+  </head>
+
+  <body>
+    <header>
+      <h1>AI Friends</h1>
+    </header>
+
+    <main>
+      <p style="margin:2.6%">Select Two Agents to compare</p>
+      <p></p>
+      <div class="displayContainer" id="display"></div>
+      <button class="clear">Clear</button>
+      <div class="container" id="selectable">
+        <!--
+          agents will appear here. id: Selectable (a jquery widget) is used to make specific objects selectable. myCards are selectable. A limit of 2 cards can be selected and shown in the display container where users can compare the agents.
+        -->
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script></script>
+  </body>
+</html>
